@@ -22,6 +22,7 @@ git push origin master
 
 cd ~/playbooks
 git pull origin master
+workon playbooks
 ansible-playbook plays/sensitive_files/download.yml
             </command>
         </hudson.tasks.Shell>
