@@ -17,6 +17,7 @@
 . ~/.bashrc
 cd ~/playbooks
 git pull origin master
+nvm use 6
 ansible-playbook plays/npm_publish/string_formatting.yml
             </command>
         </hudson.tasks.Shell>
