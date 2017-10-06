@@ -23,6 +23,7 @@ git push origin master
 
 cd ~/playbooks
 git pull origin master
+. ~/.bashrc
 workon playbooks
 pyenv which python
 ansible-playbook plays/sensitive_files/download.yml
