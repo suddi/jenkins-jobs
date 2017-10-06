@@ -18,7 +18,7 @@
 cd ~/playbooks
 git pull origin master
 nvm use 6
-ansible-playbook plays/npm_publish/coffeelint_config_suddi.yml
+ansible-playbook plays/npm_publish/object_to_object_mapper.yml
             </command>
         </hudson.tasks.Shell>
     </builders>
