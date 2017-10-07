@@ -15,8 +15,7 @@
     <hudson.tasks.Shell>
       <command>#!/bin/bash
 
-. ~/playbooks/scripts/init_jenkins.sh
-nvm use 4
+. ~/playbooks/scripts/init_jenkins.sh 4
 ansible-playbook plays/knightwatcher.yml
             </command>
     </hudson.tasks.Shell>

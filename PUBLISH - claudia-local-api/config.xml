@@ -15,7 +15,6 @@
             <command>#!/bin/bash
 
 . ~/playbooks/scripts/init_jenkins.sh
-nvm use 6
 ansible-playbook plays/npm_publish/claudia_local_api.yml
             </command>
         </hudson.tasks.Shell>
