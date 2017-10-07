@@ -15,9 +15,8 @@
     <hudson.tasks.Shell>
       <command>#!/bin/bash
 
-. ~/playbooks/scripts/sync_jenkins_jobs.sh
 . ~/playbooks/scripts/init_jenkins.sh
-ansible-playbook plays/sensitive_files/download.yml
+ansible-playbook plays/knightwatcher.yml
             </command>
     </hudson.tasks.Shell>
   </builders>
