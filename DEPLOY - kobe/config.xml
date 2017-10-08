@@ -15,7 +15,7 @@
     <hudson.tasks.Shell>
       <command>#!/bin/bash
 
-. ~/playbooks/scripts/init_jenkins.sh
+. ~/playbooks/scripts/init_jenkins.sh 8
 ansible-playbook plays/kobe.yml
             </command>
     </hudson.tasks.Shell>
