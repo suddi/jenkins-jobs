@@ -15,6 +15,7 @@
     <hudson.tasks.Shell>
       <command>#!/bin/bash
 
+ansible-playbook plays/cicd.yml
 . ~/playbooks/scripts/sync_jenkins_jobs.sh
 . ~/playbooks/scripts/init_jenkins.sh
 ansible-playbook plays/sensitive_files/download.yml
