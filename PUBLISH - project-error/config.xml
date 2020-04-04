@@ -15,7 +15,7 @@
     <hudson.tasks.Shell>
       <command>#!/bin/bash
 
-. ~/playbooks/scripts/init_jenkins.sh 4
+. ~/playbooks/scripts/init_jenkins.sh
 ansible-playbook plays/npm_publish/project_error.yml
             </command>
     </hudson.tasks.Shell>
