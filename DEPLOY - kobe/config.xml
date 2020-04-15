@@ -16,7 +16,7 @@
       <command>#!/bin/bash
 
 . ~/playbooks/scripts/init_jenkins.sh
-ansible-playbook plays/kobe.yml
+ansible-playbook plays/services/kobe.yml
             </command>
     </hudson.tasks.Shell>
   </builders>

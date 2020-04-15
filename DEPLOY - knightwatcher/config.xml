@@ -16,7 +16,7 @@
       <command>#!/bin/bash
 
 . ~/playbooks/scripts/init_jenkins.sh
-ansible-playbook plays/knightwatcher.yml
+ansible-playbook plays/lambda_functions/knightwatcher.yml
             </command>
     </hudson.tasks.Shell>
   </builders>
