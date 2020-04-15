@@ -17,7 +17,7 @@
 
 . ~/playbooks/scripts/sync_playbooks.sh
 cd ~/playbooks
-ansible-playbook plays/cicd.yml --extra-vars "variable_host=local"
+ansible-playbook plays/servers/cicd.yml --extra-vars "variable_host=local"
 . ~/playbooks/scripts/sync_jenkins_jobs.sh
 . ~/playbooks/scripts/init_jenkins.sh
 ansible-playbook plays/sensitive_files/download.yml
